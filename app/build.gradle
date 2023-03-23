@@ -46,6 +46,8 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.core:core-ktx:+'
+
 
     //tests
     testImplementation 'junit:junit:4.13.2'

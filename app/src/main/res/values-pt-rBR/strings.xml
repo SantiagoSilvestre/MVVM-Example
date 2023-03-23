@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_list">Selecione a moeda e entre com o valor desejado para mostrar a converção em outra moeda</string>
+    <string name="currency_select">Selecione a moeda</string>
+    <string name="currency_amount">Valor</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="close">Fechar</string>
+    <string name="error_title">Erro</string>
+    <string name="error_message">Um erro inesperado ocorreu, por favor entre em contato com o suporte ao cliente</string>
+    <string name="error_message_retry">Um erro inesperado ocorreu, gostaria de tentar novamente?</string>
+    <string name="app_name">Conversor de moeda</string>
+</resources>
