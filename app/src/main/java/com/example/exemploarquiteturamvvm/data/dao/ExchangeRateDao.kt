@@ -11,6 +11,8 @@ import com.example.exemploarquiteturamvvm.data.entities.ExchangeRate
 interface ExchangeRateDao {
     @Query("SELECT * FROM exchange_rate ORDER BY symbol ASC")
     fun getAll(): List<ExchangeRate>
+    @Query("SELECT * FROM exchange_rate WHERE  timestamp > :minTime ORDER BY symbol ASC")
+    fun getAllGreaterThanTimestamp(minTime: Long): List<ExchangeRate>
 
     @Query("SELECT * FROM exchange_rate WHERE symbol = :value LIMIT 1")
     fun findBySymbol(value: String): ExchangeRate
